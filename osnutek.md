@@ -1,5 +1,5 @@
-# PR18pb
-TED talks dataset
+# TED talks dataset
+
 Ta dataset vsebujeje informacije o vseh avdio-video posnetkih TED talk-ov, prenesenih na uradno spletno mesto TED.com do 
 21. septembra 2017. Glavni dataset (ted_main.csv) vsebuje informacije o vseh pogovorih, vključno s številom ogledov, številom
 komentarjev, opisima in naslovima. Drugi dataset (transcripts.csv) vsebuje prepise za vse pogovore, ki so na voljo na TED.com.
