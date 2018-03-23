@@ -18,12 +18,12 @@ Povezanost okupacije govornika z temo in ratingom pogovorja?
 
 Vir: https://www.kaggle.com/rounakbanik/ted-talks/data
 
-V podatkima so dva .csv file: ted_main.csv in transcripts.csv
+V podatkima so dva .csv filea: ted_main.csv in transcripts.csv
 
 
 OBLIK PODATKOV:
 
-ted_main.csv
+'ted_main.csv'
 
 -- This table contains 2550 rows and 17 columns.
 
@@ -98,7 +98,7 @@ Numeric
 
 
 
-transcript.csv
+'transcript.csv'
 
 -- This table contains 2467 rows and 2 columns
 
