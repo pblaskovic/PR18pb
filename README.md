@@ -64,6 +64,13 @@ url|The URL of the talk|String
 - Ali so TED talk-i med saboj nekako povezani? 
 - Povezanost okupacije govornika z temo in ratingom pogovorja?
 
+## Ugotovitve
+ - Najbolj popularan TED talk je **Do schools kill creativity?**, ima več kot 47 milijonov pogledov. Drugi najbolj popularen video je
+ **Your body language may shape who you are**, on ima več kot 43 milijonov pogledov. To so edina 2 TED talka ki imajo več kot 40
+ milijonov pogledov. 
+ V povprečju videji so pregledani okol milijon in pol krat (1 698 297).
+
+
 
 ## Usage Instructions
 This is where you lay out all the commands available or how you make your software do its magic. This can be CLI, REST, powershell commands, etc. Remember to use the backtick characters to highlight code `such as this` or create sections of code using three backticks in a row
