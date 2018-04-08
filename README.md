@@ -65,11 +65,19 @@ url|The URL of the talk|String
 - Povezanost okupacije govornika z temo in ratingom pogovorja?
 
 ## Ugotovitve
- - Najbolj popularan TED talk je **Do schools kill creativity?**, ima več kot 47 milijonov pogledov. Drugi najbolj popularen video je
- **Your body language may shape who you are**, on ima več kot 43 milijonov pogledov. To so edina 2 TED talka ki imajo več kot 40
- milijonov pogledov. 
- V povprečju videji so pregledani okol milijon in pol krat (1 698 297).
-
+1. **Do schools kill creativity?**
+  - najbolj popularan TED talk, ima več kot 47 milijonov pogledov
+  - najstarejši video, prvi uploadan na web stran (to vidimo iz originalnega dataseta ki je rasporejen po datumu objave na web strani 
+  - posle videa **Militant atheism** je video z največ komentara
+2. **Your body language may shape who you are**
+  - drugi najbolj popularen video,ima več kot 43 milijonov pogledov
+3.
+  - to so edina 2 TED talka ki imajo več kot 40 milijonov pogledov
+  - v povprečju videi so pregledani okol milijon in pol krat (1 698 297)
+4. Najbolj pogoste **teme** govornikov
+  - vsak video ima določene oznake (ang. Tags) oziroma o njegovoj vsebini
+  - iz toga koliko je posamezan Tag pogost, vidimo koje teme se pogosto pojavljuju
+  
 
 
 ## Usage Instructions
