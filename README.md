@@ -2,6 +2,7 @@
 
 Analiza podatkov - TED talks
 ======================
+![TED](TED.png)
 V projektni nalogi analiziran je [TED talks dataset](https://www.kaggle.com/rounakbanik/ted-talks/data). Skup podataka TED talks 
 vsebuje podatke o videih zbranihih na strani TED.com v obdobju do 21. septembra 2017.
 
@@ -66,18 +67,18 @@ url|The URL of the talk|String
 
 ## Ugotovitve
 1. **Do schools kill creativity?**
-  - najbolj popularan TED talk, ima več kot 47 milijonov pogledov
-  - najstarejši video, prvi uploadan na web stran (to vidimo iz originalnega dataseta ki je rasporejen po datumu objave na web strani 
-  - posle videa **Militant atheism** je video z največ komentara
+   - najbolj popularan TED talk, ima več kot 47 milijonov pogledov
+   - najstarejši video, prvi uploadan na web stran (to vidimo iz originalnega dataseta ki je rasporejen po datumu objave na web strani 
+   - posle videa **Militant atheism** je video z največ komentara
 2. **Your body language may shape who you are**
-  - drugi najbolj popularen video,ima več kot 43 milijonov pogledov
+   - drugi najbolj popularen video,ima več kot 43 milijonov pogledov
 3.
-  - to so edina 2 TED talka ki imajo več kot 40 milijonov pogledov
-  - v povprečju videi so pregledani okol milijon in pol krat (1 698 297)
+   - to so edina 2 TED talka ki imajo več kot 40 milijonov pogledov
+   - v povprečju videi so pregledani okol milijon in pol krat (1 698 297)
 4. Najbolj pogoste **teme** govornikov
-  - vsak video ima določene oznake (ang. Tags) oziroma o njegovoj vsebini
-  - iz toga koliko je posamezan Tag pogost, vidimo koje teme se pogosto pojavljuju
-  
+   - vsak video ima določene oznake (ang. Tags) oziroma o njegovoj vsebini
+   - iz toga koliko je posamezan Tag pogost, vidimo koje teme se pogosto pojavljuju
+   ![Tags](tags.png)
 
 
 ## Usage Instructions
