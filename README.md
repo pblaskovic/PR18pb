@@ -1,8 +1,7 @@
 ### Projektna naloga
-
+![TED](TED.png)
 Analiza podatkov - TED talks
 ======================
-![TED](TED.png)
 V projektni nalogi analiziran je [TED talks dataset](https://www.kaggle.com/rounakbanik/ted-talks/data). Skup podataka TED talks 
 vsebuje podatke o videih zbranihih na strani TED.com v obdobju do 21. septembra 2017.
 
