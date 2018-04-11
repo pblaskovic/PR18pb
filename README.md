@@ -56,7 +56,6 @@ url|The URL of the talk|String
 
 ## Glavna prašanja
 - Kateri so najbolj gledani i najbolja oceneni pogovori?
-- Koliko je moških/ženskih govornikov? 
 - Koje so najbolj pogoste teme govornikov? 
 - Koliko so v povprečju dolgi govori, kateri so bolje oceneni, dolgi ali kratki? 
 - V katerih krajih so posneti najbolj popularni pogovori? 
