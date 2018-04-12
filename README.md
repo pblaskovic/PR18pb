@@ -21,7 +21,6 @@ Skup podatkov vsebuje dve CSV datoteki:
   - numpy
   - pandas
   - matplotlib
-  - scipy
 
 ### Opis podatkov
  **ted_main.csv**
@@ -68,6 +67,30 @@ url|The URL of the talk|String
 Sigurno je da videi koji so na snimani prije veliko leta bojo imeli več pogledov. Menim da najpogosteje komentirani videi bojo govorili o politiki in znanosti. Verjetno je da v zimskih mesecev videi bodo več pregledani. Verjujem da so videi povezani preko teme in govornika. A okupacija govornika verjetno bo povezana z temo govora.
 
 ## Ugotovitve
+
+### Učitavanje podatkov
+
+```
+import pandas as pd
+import numpy as np
+%matplotlib inline
+import matplotlib.pyplot as plt
+import datetime
+import time
+```
+```
+cols = ['comments', 'description', 'duration', 'event', 'film_date', 'languages', 'main_speaker', 'name', 'num_speaker', 'published_date', 'ratings', 'related_talks', 'speaker_occupation', 'tags', 'title', 'url', 'views']
+ted = pd.read_csv('data/ted_main.csv', sep=',', names=cols, skiprows=1, encoding='utf-8')
+
+t_cols = ['transcript', 'url']
+transcripts = pd.read_csv('data/transcripts.csv', sep=',',names=t_cols, skiprows=1, encoding='utf-8')
+```
+Timestamp datuma izdelave in objave videa pretvorimo v navadni datum:
+```
+ted['film_date'] = ted['film_date'].apply(lambda x: datetime.datetime.fromtimestamp(int(x)).strftime('%d-%m-%Y'))
+ted['published_date'] = ted['published_date'].apply(lambda x: datetime.datetime.fromtimestamp(int(x)).strftime('%d-%m-%Y'))
+ted['duration']=ted['duration'].div(60).round(2)
+```
 
 ### Popularnost videa
 ```
