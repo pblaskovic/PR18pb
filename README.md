@@ -55,15 +55,26 @@ url|The URL of the talk|String
 
 
 ## Glavna prašanja
-- Kateri so najbolj gledani i najbolja oceneni pogovori?
-- Koje so najbolj pogoste teme govornikov? 
-- Koliko so v povprečju dolgi govori, kateri so bolje oceneni, dolgi ali kratki? 
-- V katerih krajih so posneti najbolj popularni pogovori? 
-- V katerih mesecih so prikazovani najbolj populrani pogovorji? 
-- Ali so TED talk-i med saboj nekako povezani? 
+- Kateri so najbolj najbolj oceneni videi? Ali so oni nekako povezani? Ali govorijo o istih temah?
+- Ali obstaja povezava med ocenom in številom pogleda videa?
+- Koje so najbolj pogoste teme govornikov?
+- Koje teme provociraju največ komentarjev?
+- Koliko so v povprečju dolgi govori, kateri so bolje oceneni, dolgi ali kratki?
+- Ali obstaja povezava med dolžino in temo videa?
+- V katerih mesecih je prikazovano največ videa? Gdaj so posnamljeni najbolj populrani videi?
+- Ali so TED talk-i med saboj nekako povezani?
 - Povezanost okupacije govornika z temo in ratingom pogovorja?
 
+Sigurno je da videi koji so na snimani prije veliko leta bojo imeli več pogledov. Menim da najpogosteje komentirani videi bojo govorili o politiki in znanosti. Verjetno je da v zimskih mesecev videi bodo več pregledani. Verjujem da so videi povezani preko teme in govornika. A okupacija govornika verjetno bo povezana z temo govora.
+
 ## Ugotovitve
+
+### Popularnost videa
+```
+max_views = ted[['title', 'main_speaker', 'views']].sort_values('views', ascending=False)[:10]
+mean_views = ted['views'].mean()
+max_comments = ted[['title', 'main_speaker', 'views', 'comments']].sort_values('comments', ascending=False)[:10]
+```
 1. **Do schools kill creativity?**
    - najbolj popularan TED talk, ima več kot 47 milijonov pogledov
    - najstarejši video, prvi uploadan na web stran (to vidimo iz originalnega dataseta ki je rasporejen po datumu objave na web strani 
@@ -73,30 +84,9 @@ url|The URL of the talk|String
 3.
    - to so edina 2 TED talka ki imajo več kot 40 milijonov pogledov
    - v povprečju videi so pregledani okol milijon in pol krat (1 698 297)
+
+
 4. Najbolj pogoste **teme** govornikov
    - vsak video ima določene oznake (ang. Tags) oziroma o njegovoj vsebini
    - iz toga koliko je posamezan Tag pogost, vidimo koje teme se pogosto pojavljuju
    ![Tags](tags.png)
-
-
-## Usage Instructions
-This is where you lay out all the commands available or how you make your software do its magic. This can be CLI, REST, powershell commands, etc. Remember to use the backtick characters to highlight code `such as this` or create sections of code using three backticks in a row
-```
-to do 
-multiline
-code
-```
-
-## Future
-this is where you can add things you plan on adding to the future. this helps anyone wanting to contribute to know what they can help with. This is not a necessary thing to do if your project doesn't have a roadmap.
-- Add these functions depending on necessity
-  - thing 1
-  - thing 2
-  - thing 3
-- Clean up the code
-  - break out into multiple files
-  - etc
-
-## Contribution
-
-
