@@ -101,7 +101,11 @@ max_comments = ted[['title', 'main_speaker', 'views', 'comments']].sort_values('
 1. **Do schools kill creativity?**
    - najbolj popularan TED talk, ima več kot 47 milijonov pogledov
    - najstarejši video, prvi uploadan na web stran (to vidimo iz originalnega dataseta ki je rasporejen po datumu objave na web strani 
-   - posle videa **Militant atheism** je video z največ komentara
+   - posle videa **Militant atheism** je video z največ komentarov
+   
+   - Ken Robinson govori o tem kako je način učenja učencov v šoli zastarel, on to govori še leta 2006
+   - kako je šola preveč usmerena v eni smeri, da vsi uče na isti način, z enakim uputstvima, bez mogočnosti nalaženja svjih rešitvi.
+   
 2. **Your body language may shape who you are**
    - drugi najbolj popularen video,ima več kot 43 milijonov pogledov
 3.
